@@ -4,19 +4,26 @@
 
 .slides {
     margin: 0 auto;
-  width: 400px;
+    width: 400px;
+    
 }
 
 figure{
+    position: relative;
     margin: 0;
+    width: 400px;
+    height: 300px;
+
 }
 img {
     width: 400px;
     height: 300px;
     display: block;
 }
-
-.next-btn {
+.slide{
+    position: absolute;
+}
+.next-btn{
     float: right;
 }
 
@@ -27,3 +34,4 @@ h2 {
 .hide{
     display: none;
 }
+
