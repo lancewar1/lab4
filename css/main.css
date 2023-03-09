@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+
+.slides {
+    margin: 0 auto;
+  width: 400px;
+}
+
+figure{
+    margin: 0;
+}
+img {
+    width: 400px;
+    height: 300px;
+    display: block;
+}
+
+.next-btn {
+    float: right;
+}
+
+h2 {
+    text-align: center;
+}
+
+.hide{
+    display: none;
+}
