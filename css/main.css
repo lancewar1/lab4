@@ -13,8 +13,8 @@ figure{
     margin: 0;
     width: 400px;
     height: 300px;
-
 }
+
 img {
     width: 400px;
     height: 300px;
@@ -34,6 +34,13 @@ h2 {
 .current {
     transition: opacity .5s ease-out;
   }
+
+figcaption{
+ position: absolute;
+ top: 20rem;
+ left: 10rem;
+}
+
 
 
 .hide{
